@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — ProFix Home Services</title>
+  <meta name="description" content="Get a free estimate from ProFix Home Services. Call (555) 847-2910 or fill out our form and we'll get back to you fast." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🔧</div>
+        <div class="logo-text">ProFix<span> HS</span><span class="logo-sub">Home Services</span></div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html" class="btn btn-primary">Get a Free Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="contact-hero">
+    <div class="container">
+      <span class="section-label">Get In Touch</span>
+      <h1>Let's Talk About Your Project</h1>
+      <p>Free estimates, fast responses, and no pressure. Describe your job and we'll get back to you within the hour.</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="sep">›</span>
+        <span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="trust-bar">
+    <div class="container trust-bar-inner">
+      <div class="trust-item"><span>⚡</span> Responds Within 1 Hour</div>
+      <div class="trust-item"><span>💰</span> 100% Free Estimates</div>
+      <div class="trust-item"><span>📅</span> Same-Day Scheduling Available</div>
+      <div class="trust-item"><span>🤝</span> No Obligation, No Pressure</div>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- LEFT: Info -->
+        <div class="contact-info">
+          <span class="section-label">Contact Info</span>
+          <h3>Reach Us Any Way You Like</h3>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="ci-icon">📞</div>
+              <div>
+                <div class="ci-label">Phone</div>
+                <a href="tel:5558472910" class="ci-value" style="color:var(--navy);">(555) 847-2910</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">✉️</div>
+              <div>
+                <div class="ci-label">Email</div>
+                <a href="mailto:hello@profixhs.com" class="ci-value" style="color:var(--navy);">hello@profixhs.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">🕐</div>
+              <div>
+                <div class="ci-label">Business Hours</div>
+                <div class="ci-value">Mon–Sat: 7am – 7pm</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">📍</div>
+              <div>
+                <div class="ci-label">Based In</div>
+                <div class="ci-value">Riverside, CA 92501</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-area-box">
+            <h4>📍 Service Area</h4>
+            <p style="color:rgba(255,255,255,.6); font-size:.85rem; margin-bottom:14px;">We proudly serve the following cities and surrounding communities:</p>
+            <div class="area-tags">
+              <span class="area-tag">Riverside</span>
+              <span class="area-tag">Corona</span>
+              <span class="area-tag">Moreno Valley</span>
+              <span class="area-tag">Norco</span>
+              <span class="area-tag">Eastvale</span>
+              <span class="area-tag">Jurupa Valley</span>
+              <span class="area-tag">Perris</span>
+              <span class="area-tag">Lake Elsinore</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <div class="contact-form-card">
+          <h3>Request a Free Estimate</h3>
+          <form id="contactForm" novalidate>
+            <input type="hidden" name="access_key" value="8849cdb7-8d82-45d6-ac0b-0ceb267fcbf8" />
+            <input type="hidden" name="subject" value="New Free Estimate Request — ProFix Home Services" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">— Select a service —</option>
+                <option value="plumbing">Plumbing</option>
+                <option value="electrical">Electrical</option>
+                <option value="drywall">Drywall</option>
+                <option value="painting">Painting</option>
+                <option value="carpentry">Carpentry</option>
+                <option value="general">General Repairs</option>
+                <option value="multiple">Multiple Services</option>
+                <option value="unsure">Not Sure — Need Assessment</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="address">Service Address</label>
+              <input type="text" id="address" name="address" placeholder="123 Main St, Riverside, CA" />
+            </div>
+            <div class="form-group">
+              <label for="message">Describe the Job *</label>
+              <textarea id="message" name="message" placeholder="Tell us what needs to be fixed — include any details that might be helpful (size, urgency, previous repairs, etc.)" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; font-size:1rem; padding:15px;">
+              Send My Request →
+            </button>
+            <p class="form-note">🔒 Your information is never shared. We'll respond within 1 business hour.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="centered">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-heading">Common Questions</h2>
+        <p class="section-sub">Quick answers to things homeowners ask us all the time.</p>
+      </div>
+      <div class="services-full-grid" style="margin-top:40px;">
+        <div class="service-full-card" style="flex-direction:column; gap:10px;">
+          <h3 style="font-size:1rem;">Do you offer same-day service?</h3>
+          <p style="margin:0; font-size:.9rem;">Yes — call us before noon on weekdays and we'll do our best to schedule same-day. Availability varies by job type and current schedule.</p>
+        </div>
+        <div class="service-full-card" style="flex-direction:column; gap:10px;">
+          <h3 style="font-size:1rem;">Are your estimates really free?</h3>
+          <p style="margin:0; font-size:.9rem;">Completely free and no-obligation. We assess your job, give you a transparent quote, and you decide — no pressure, no follow-up spam.</p>
+        </div>
+        <div class="service-full-card" style="flex-direction:column; gap:10px;">
+          <h3 style="font-size:1rem;">Are you licensed and insured?</h3>
+          <p style="margin:0; font-size:.9rem;">Yes. All ProFix technicians are fully licensed, bonded, and carry general liability insurance. We're happy to provide proof before any job starts.</p>
+        </div>
+        <div class="service-full-card" style="flex-direction:column; gap:10px;">
+          <h3 style="font-size:1rem;">What if I'm not happy with the work?</h3>
+          <p style="margin:0; font-size:.9rem;">We back every job with our satisfaction guarantee. If something isn't right, contact us and we'll return to make it right — at no additional charge.</p>
+        </div>
+        <div class="service-full-card" style="flex-direction:column; gap:10px;">
+          <h3 style="font-size:1rem;">Do you do work outside your service area?</h3>
+          <p style="margin:0; font-size:.9rem;">For larger projects we may travel further — just ask. We serve all of Riverside County and some areas of San Bernardino County.</p>
+        </div>
+        <div class="service-full-card" style="flex-direction:column; gap:10px;">
+          <h3 style="font-size:1rem;">What payment methods do you accept?</h3>
+          <p style="margin:0; font-size:.9rem;">We accept cash, check, Venmo, Zelle, and all major credit cards. Payment is due upon job completion unless otherwise arranged.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>We're Ready When You Are</h2>
+      <p>Call now for same-day scheduling or fill out the form above and we'll get back to you fast.</p>
+      <div class="cta-actions">
+        <a href="tel:5558472910" class="btn btn-primary btn-lg">📞 Call (555) 847-2910</a>
+        <a href="mailto:hello@profixhs.com" class="btn btn-outline btn-lg">✉️ Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">🔧</div>
+            <div class="logo-text">ProFix<span> HS</span><span class="logo-sub">Home Services</span></div>
+          </a>
+          <p>Professional home repairs done right — on time, on budget, and built to last. Serving the Riverside area since 2004.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Free Quote</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Plumbing</a></li>
+            <li><a href="services.html">Electrical</a></li>
+            <li><a href="services.html">Drywall</a></li>
+            <li><a href="services.html">Painting</a></li>
+            <li><a href="services.html">Carpentry</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <ul class="footer-contact-list">
+            <li><span>📞</span><span>(555) 847-2910</span></li>
+            <li><span>✉️</span><span>hello@profixhs.com</span></li>
+            <li><span>📍</span><span>Riverside, CA &amp; surrounding areas</span></li>
+            <li><span>🕐</span><span>Mon–Sat: 7am – 7pm</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 ProFix Home Services. All rights reserved. <em>This is a sample/portfolio site.</em></p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">✅ Message sent! We'll get back to you shortly.</div>
+
+  <script>
+    // Mobile nav
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+    document.querySelectorAll('.nav-links a').forEach(l => l.addEventListener('click', () => navLinks.classList.remove('open')));
+
+    // Phone formatting
+    document.getElementById('phone').addEventListener('input', function () {
+      let v = this.value.replace(/\D/g, '').substring(0, 10);
+      if (v.length >= 7) v = '(' + v.substring(0,3) + ') ' + v.substring(3,6) + '-' + v.substring(6);
+      else if (v.length >= 4) v = '(' + v.substring(0,3) + ') ' + v.substring(3);
+      this.value = v;
+    });
+
+    // Form submit — real Formspree submission
+    document.getElementById('contactForm').addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      // Validate required fields
+      const required = this.querySelectorAll('[required]');
+      let valid = true;
+      required.forEach(field => {
+        field.style.borderColor = '';
+        if (!field.value.trim()) {
+          field.style.borderColor = '#ef4444';
+          valid = false;
+        }
+      });
+      if (!valid) return;
+
+      const btn = this.querySelector('button[type="submit"]');
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+
+      try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: new FormData(this)
+        });
+
+        if (response.ok) {
+          this.reset();
+          btn.textContent = 'Send My Request →';
+          btn.disabled = false;
+          const toast = document.getElementById('toast');
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 4000);
+        } else {
+          const data = await response.json();
+          const msg = data.errors ? data.errors.map(e => e.message).join(', ') : 'Submission failed. Please try again.';
+          alert('Error: ' + msg);
+          btn.textContent = 'Send My Request →';
+          btn.disabled = false;
+        }
+      } catch (err) {
+        alert('Network error. Please check your connection and try again.');
+        btn.textContent = 'Send My Request →';
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
